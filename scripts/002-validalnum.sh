@@ -1,4 +1,4 @@
-#!/bin/sh
+!/bin/sh
 # validalAlphaNum - Ensures that input only consists of alphabetical
 #              and numeric characters.
 
@@ -13,13 +13,15 @@ validAlphaNum()
     return 1
   else
     return 0
-  fi
+  f
 }
 
 # Sample usage of this function in a script
 
 echo -n "Enter input: "
 read input
+
+ech test
 
 if ! validAlphaNum "$input" ; then
   echo "Your input must consist of only letters and numbers." >&2
